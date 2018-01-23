@@ -11,10 +11,9 @@ function forLoop (array){
   return array
 }
 
-function whileLoop (number){
-  let number = 10
-  while (number > 0) {
-    console.log(--number)
+function whileLoop (n){
+  while (n > 0) {
+    console.log(--n)
   }
   return "done"
 }
