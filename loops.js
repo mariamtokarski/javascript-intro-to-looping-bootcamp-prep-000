@@ -17,3 +17,10 @@ function whileLoop (n){
   }
   return "done"
 }
+
+function doWhileLoop(array){
+do {
+  console.log("Let's Roll!")
+} while (array.length > 0 && Math.random() >= 0.5)
+return array
+}
