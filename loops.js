@@ -20,7 +20,7 @@ function whileLoop (n){
 
 function doWhileLoop(array){
 do {
-  console.log("Let's Roll!")
+  console.log(--array.length)
 } while (array.length > 0 && Math.random() >= 0.5)
 return array
 }
